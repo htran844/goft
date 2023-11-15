@@ -22,7 +22,7 @@ export default function Header() {
         </a>
         <a className="logo" href="home/" title="World Golf Tour homepage">
           <img
-            src="../../public/logoheader.png"
+            src="/logoheader.png"
             width={100}
             alt="WGT Golf"
           />
