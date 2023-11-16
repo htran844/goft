@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer id="footer">
       <div className="footer1">
-        <div className="bigbutton bottombutton">
+        {/* <div className="bigbutton bottombutton">
           <a
             className="w scrolled"
             href="signup/"
@@ -23,7 +23,7 @@ export default function Footer() {
           >
             Play Now
           </a>
-        </div>
+        </div> */}
 
         {/* <div className="apps">
           <a
@@ -48,14 +48,14 @@ export default function Footer() {
           />
           <a className="desktop macos" title="Available on macOS" />
         </div> */}
-        <figure
+        {/* <figure
           id="qr"
           title="Use camera or QR code app"
           style={{ left: "304.45px", top: 88, display: "none" }}
         >
           <canvas height={144} width={144} style={{ height: 144, width: 144 }} />
-        </figure>
-        <div className="social">
+        </figure> */}
+        {/* <div className="social">
           <a
             rel="noopener"
             target="_blank"
@@ -96,7 +96,7 @@ export default function Footer() {
           >
             <FaTwitch />
           </a>
-        </div>
+        </div> */}
         <div className="clear" />
       </div>
       <div className="footer2">
